@@ -1,0 +1,17 @@
+[
+    {
+    "rank": 1,
+    "table_name": "The Addams Family",
+    "manufacturer":"Bally",
+},
+{
+    "rank": 2,
+    "table_name": "Medieval Madness",
+    "manufacturer":"Williams",
+},
+{
+    "rank": 3,
+    "table_name": "Twilight Zone",
+    "manufacturer":"Bally",
+}
+]

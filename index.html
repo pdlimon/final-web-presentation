@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <meta charset="utf-8"/>
+    <title>
+        Pablo's Pinball Home Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script type="text/javascript">
+        $(function()
+        {
+            $('#pinballmachines').hover(function()//on over
+            {
+                $('#pinballmachines').attr('src','rolloverimage.jpg')
+            },
+            function()//on out
+            {
+                $('#pinballmachines').attr('src','pinball2015_0045f-640x427b.jpg')
+        })
+    })
+    </script>
+</head>
+ 
+<body background="a-vibrant-retro-inspired-pinball-machine-in-action-a15sencfdfkiyr2p.jpg" background-repeat="no-repeat” background-size="cover”>
+    
+    <div id="top"></div>
+    <nav>
+        <div class='heading'>
+        <h4>Navigation Bar</h4>
+        </div>
+        <ul class='nav-links'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div>
+        <header>
+            <h1>Hi everyone, welcome to my Pinball page!
+            </h1>
+            <h2>We will explore things pinball related on this website.
+            </h2>
+            <hr>
+        </header>
+    </div>
+ 
+    <div>
+        <h3>About Me</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    
+    <div>
+        <main>
+            <h3>Here is a lineup of pinball machines from Museum of Pinball, and a closeup of Twilight Zone table:
+            </h3>
+        <img src="pinball2015_0045f-640x427b.jpg" id="pinballmachines"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+        </main>
+    </div>
+    
+    <div>
+        <footer>
+        <h3>
+        <hr>Thank you for visiting my site
+        </h3>
+        <br>
+        <h4>
+        <hr>Author: Pablo Limon
+        </h4>
+        <br>
+        <h5>
+        <hr>Copyright ©-All rights are reserved
+        <br>
+        <a href="mailto:aaa@fake.com">Email Me</a>
+        </h5>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+ 
+</html>

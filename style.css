@@ -1,0 +1,149 @@
+*{
+    margin:5px;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.body-text{
+    display: flex;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    margin-top: 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: blueviolet;
+    font-family: "Montserrat" , sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.nav-links li{
+    list-style: none;
+}
+.headings{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+div{
+    background-color: 
+    height:
+    width:
+    border: 2px
+    padding: 2px
+}
+header{
+    font-family: "Montserrat" , sans-serif;
+}
+p{
+    color: white
+}
+h1{
+   color: black;
+    background-color: white;
+}
+h2{
+   color: white 
+}
+h3{
+   color: white
+}
+h4{
+   color: white 
+}
+h5{
+   color: white 
+}
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  border: 5px solid white;
+}
+.image img{
+    transform: scale(var(--zoom, 1));
+    transform-origin: var(--x) var(--y);
+    transition: transform 0.3s ease;
+}
+.img:hover{
+      --zoom: 3;  
+    }
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+table{
+    width:500px;
+    border-collapse: collapse;
+    overflow:hidden;
+    box-shadow: 0 0 20px rgba(0.0.0.0.1);
+}
+th,td{
+    padding:15px;
+    background-color:rgba(255, 255, 255, 0.2);
+    color:#fff;
+}
+th{
+    text-align: left;
+}
+thead{
+        background-color: #55608f;
+}
+
+tbody{
+        &:hover{
+            background-color:rgba(255.255.255.0.3);
+    }
+}
+tr{
+    position:relative;
+    &:hover
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 3px 3px 3px white, -3px -3px 3px beige;
+}
+.form-box input{
+    font-size: 16px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: gray;
+}
+.form-box button{
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: lightgray;
+    cursor: pointer;
+    transition: .3s;
+}
+.form-box button:hover{
+    background: blue;
+}
